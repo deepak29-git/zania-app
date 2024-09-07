@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "type": "bank-draft",
+      "title": "Bank Draft",
+      "position": 0,
+      "imageUrl": "https://e7.pngegg.com/pngimages/273/154/png-clipart-cats-cats.png"
+    },
+    {
+      "type": "bill-of-lading",
+      "title": "Bill of Lading",
+      "position": 1,
+      "imageUrl": "https://e7.pngegg.com/pngimages/549/292/png-clipart-cat-food-kitten-dog-adorable-cat-mammal-cat-like-mammal.png"
+    },
+    {
+      "type": "invoice",
+      "title": "Invoice",
+      "position": 2,
+      "imageUrl": "https://e7.pngegg.com/pngimages/986/809/png-clipart-cat-drawing-painting-art-painted-cat-watercolor-painting-mammal.png"
+    },
+    {
+      "type": "bank-draft-2",
+      "title": "Bank Draft 2",
+      "position": 3,
+      "imageUrl": "https://e7.pngegg.com/pngimages/672/70/png-clipart-siamese-cat-cartoon-cat-mammal-cat-like-mammal.png"
+    },
+    {
+      "type": "bill-of-lading-2",
+      "title": "Bill of Lading 2",
+      "position": 4,
+      "imageUrl": "https://e7.pngegg.com/pngimages/563/269/png-clipart-tom-cat-tom-and-jerry-cat-mammal-animals.png"
+    }
+  ]
+}
