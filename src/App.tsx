@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
 import axios from "axios";
 import { v4 as uuid } from "uuid";
 import Card from "./components/Card/Card";
@@ -57,14 +56,11 @@ function App() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  // Function to handle drag end
   const onDragEnd = (result: DropResult) => {
-    if (!result.destination) return; // Exit if there's no destination
-
+    if (!result.destination) return;
     const reorderedData = Array.from(data);
-    const [movedItem] = reorderedData.splice(result.source.index, 1); // Remove the dragged item from the source
-    reorderedData.splice(result.destination.index, 0, movedItem); // Insert the dragged item at the destination
-
+    const [movedItem] = reorderedData.splice(result.source.index, 1);
+    reorderedData.splice(result.destination.index, 0, movedItem);
     setData(reorderedData);
   };
 
